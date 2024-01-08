@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Digital-7';
+  src: url(./digital-7.ttf) format('truetype');
+}
+
+body {
+  font-family: 'Digital-7', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #282828;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .clock {
+    width: 60rem;
+    position: relative;
+    padding: 2rem;
+    border: 7px solid #282828;
+    box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
+      inset 4px 4px 10px rgba(0, 0, 0, 0.5),
+      inset -4px -4px 10px rgba(67, 67, 67, 0.5),
+      4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .outer-clock-face {
+    position: relative;
+    background: #282828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .digits{
+    color: #61afff;
+    font-size: 17rem;
+  }
+
+  .points{
+    color: #ee791a;
+    font-size: 15rem;
+  }
