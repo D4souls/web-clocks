@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Digital-7';
-  src: url(./digital-7.ttf) format('truetype');
+  src: url(./digital-7.ttf);
 }
 
 body {
@@ -39,10 +39,20 @@ body {
 
   .digits{
     color: #61afff;
-    font-size: 17rem;
+    font-size: 19rem;
   }
 
   .points{
     color: #ee791a;
     font-size: 15rem;
+  }
+
+  .blinking{
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+    50%{
+      opacity: 0.5;
+    }
   }
