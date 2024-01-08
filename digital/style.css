@@ -10,41 +10,40 @@ body {
     flex: 1;
     align-items: center;
     min-height: 100vh;
+    justify-content: center;
   }
 
   .clock {
     width: 60rem;
-    position: relative;
-    padding: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     border: 7px solid #282828;
     box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
       inset 4px 4px 10px rgba(0, 0, 0, 0.5),
       inset -4px -4px 10px rgba(67, 67, 67, 0.5),
       4px 4px 10px rgba(0, 0, 0, 0.3);
     border-radius: 2rem;
-    margin: 50px auto;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .outer-clock-face {
-    position: relative;
-    background: #282828;
+    width: 70rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
   }
 
   .digits{
     color: #61afff;
-    font-size: 19rem;
+    font-size: 15rem;
   }
 
   .points{
     color: #ee791a;
-    font-size: 15rem;
+    font-size: 10rem;
   }
 
   .blinking{

@@ -1,9 +1,10 @@
 body {
-      background: #282828;
+    background: #282828;
     display: flex;
     flex: 1;
     align-items: center;
     min-height: 100vh;
+    overflow: hidden;
   }
 
   .clock {
